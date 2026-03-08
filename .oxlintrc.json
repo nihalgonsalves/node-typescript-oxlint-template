@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "extends": ["node_modules/@nihalgonsalves/esconfig/.oxlintrc.json"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "error"
+  },
+  "plugins": ["typescript", "import", "unicorn"],
+  "options": { "typeAware": true, "typeCheck": true }
+}

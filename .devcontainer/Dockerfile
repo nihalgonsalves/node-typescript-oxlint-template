@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/javascript-node:20
+FROM mcr.microsoft.com/devcontainers/javascript-node:24
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 

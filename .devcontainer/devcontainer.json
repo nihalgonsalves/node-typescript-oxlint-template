@@ -5,7 +5,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+      "extensions": ["oxc.oxc-vscode"]
     }
   },
   "mounts": [
@@ -15,7 +15,7 @@
       "type": "bind"
     }
   ],
-  "onCreateCommand": "yarn install",
+  "onCreateCommand": "pnpm install",
   "postCreateCommand": "sudo chown root:docker /var/run/docker.sock",
   "remoteUser": "node"
 }
