@@ -15,11 +15,11 @@
   },
   "devDependencies": {
     "@nihalgonsalves/esconfig": "^0.18.2",
-    "@types/node": "^24.13.3",
-    "lefthook": "^2.1.12",
-    "oxfmt": "^0.65.0",
-    "oxlint": "^1.80.0",
-    "oxlint-tsgolint": "^7.0.2001",
+    "@types/node": "^24.19.0",
+    "lefthook": "^2.1.14",
+    "oxfmt": "^0.71.0",
+    "oxlint": "^1.86.0",
+    "oxlint-tsgolint": "^7.0.2003",
     "typescript": "^7.0.2"
   },
   "packageManager": "pnpm@11.0.6+sha512.97f906e1da2bedac3df83cadae04b4753a130092dd49d55cd36825ad3e623e9df3f97754f8f259e699172a360fac569acf2f908e7732bdae3eddb2dcf7e121fd"
